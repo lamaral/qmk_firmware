@@ -10,5 +10,11 @@ for more options.
 #define MANUFACTURER    "LAmaral"
 #define PRODUCT         "Sofle"
 
+/* Fix the encoder resolution */
+#ifdef ENCODER_RESOLUTION
+    #undef ENCODER_RESOLUTION
+#endif
+#define ENCODER_RESOLUTION 4
+
 /* Enable Caps Word by pushing both shifts */
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
