@@ -18,3 +18,7 @@ for more options.
 
 /* Enable Caps Word by pushing both shifts */
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+/* XXX: Change the master side. The new Arduino is FUBAR */
+#undef MASTER_LEFT
+#define MASTER_RIGHT
